@@ -12,15 +12,15 @@
 
 ## ✨ Features
 
-- ⚡ **Parallel Chunk Downloading** – Downloads file chunks concurrently using multiple Telegram Data Centers (DCs) for maximum throughput.
-- 🧵 **Configurable Worker Pool** – Adjust the number of concurrent chunk workers and overall parallel downloads.
-- 🚦 **Task Queuing** – Respects global download concurrency limits; queued tasks wait for available slots.
-- ❌ **Graceful Cancellation** – Cancel any active download instantly via an inline button; partially downloaded files are removed.
-- 📁 **Built-in File Management** – View, delete, move, and wipe all stored files via an interactive reply keyboard.
-- 🛡️ **Authorization** – Restrict bot access to specific Telegram user IDs (optional).
-- 📊 **Status & Diagnostics** – Monitor storage usage, system performance, and active worker counts.
-- 🧹 **Auto-Sanitization** – Filenames are automatically sanitized to prevent OS errors.
-- 💾 **Persistent Configuration** – Settings stored in a simple `settings.ini` file; first-run guided setup.
+-  **Parallel Chunk Downloading** – Downloads file chunks concurrently using multiple Telegram Data Centers (DCs) for maximum throughput.
+-  **Configurable Worker Pool** – Adjust the number of concurrent chunk workers and overall parallel downloads.
+-  **Task Queuing** – Respects global download concurrency limits; queued tasks wait for available slots.
+-  **Graceful Cancellation** – Cancel any active download instantly via an inline button; partially downloaded files are removed.
+-  **Built-in File Management** – View, delete, move, and wipe all stored files via an interactive reply keyboard.
+-  **Authorization** – Restrict bot access to specific Telegram user IDs (optional).
+-  **Status & Diagnostics** – Monitor storage usage, system performance, and active worker counts.
+-  **Auto-Sanitization** – Filenames are automatically sanitized to prevent OS errors.
+-  **Persistent Configuration** – Settings stored in a simple `settings.ini` file; first-run guided setup.
 
 ## 📋 Prerequisites
 
