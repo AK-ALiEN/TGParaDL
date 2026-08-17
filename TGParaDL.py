@@ -66,7 +66,7 @@ def load_config():
         config_parser.set("Settings", "BOT_TOKEN", input("Enter BOT_TOKEN: "))
         config_parser.set("Settings", "DOWNLOAD_DIR", input("Enter DOWNLOAD_DIR (default './downloads/'): ") or "./downloads/")
         config_parser.set("Settings", "ALLOWED_USERS", "")
-        config_parser.set("Settings", "MAX_CONCURRENT_DOWNLOADS", "3")
+        config_parser.set("Settings", "MAX_CONCURRENT_DOWNLOADS", "1")
         config_parser.set("Settings", "CHUNK_WORKERS", "4")
         
         with open(CONFIG_FILE, "w") as f:
